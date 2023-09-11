@@ -7,4 +7,4 @@ const app = express();
 app.use(express.json());
 
 app.use('/api', busRoutes);
-app.listen(() => {});
+app.listen( 3000, () => {});
